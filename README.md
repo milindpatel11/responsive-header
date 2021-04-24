@@ -1,4 +1,4 @@
-## responsive-headerResponsive header with Hamburger Example (possibly creating mini-package later)
+## Simple Responsive header with Hamburger Example just with CSS for React (possibly creating mini-package later)
 
 # How to Use 
 
