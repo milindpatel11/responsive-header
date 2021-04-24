@@ -1,20 +1,14 @@
-import './css/Header.css';
+import './css/Header.css';   // Change this accordingly where CSS is located
 import { useState } from 'react';
-import logo from '../img/Logo.png';
-import menu from '../icons/menu@1x.png';
-import close from '../icons/close@1x.png';
+import logo from '../img/Logo.png'; // Change this accordingly where logo is located
+import menu from '../icons/menu@1x.png'; // Change this accordingly where icon is located
+import close from '../icons/close@1x.png'; // Change this accordingly where icon is located
 
+// Change below according to titles needed
 const header_data =  [ "Item-1", "Item-2", "Item-3", "Item-4", "Item-5" ]
 
 
 function Header(props) {
-
-  //  useState using props coming from the parent
-
-
-
-  // return the div with new/ updated props data
-
 
   const [isActive, setActive] = useState(false);
 
